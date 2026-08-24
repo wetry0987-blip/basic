@@ -106,7 +106,7 @@ public class Main
                 if (findById(student.getId()) != null){
                     throw new ScoreException("学号重复，不允许添加"+student.getId());
                 }
-                students.add(student);
+
             }
 
         }
