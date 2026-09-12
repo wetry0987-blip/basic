@@ -2,7 +2,7 @@ package suanfati;
 
 import java.util.Scanner;
 
-public class zifuchuxiancishu2 {
+public class zifuchuxiancishu {
     public  static void main (String[] args){
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine().trim().toLowerCase();
