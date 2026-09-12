@@ -95,7 +95,7 @@
   List<String> list = new ArrayList<>();
   // ...添加元素
   for (String s : list) {
-      if (s.equals("a")) list.remove(s); // 可能抛 ConcurrentModificationException
+      if (s.equals("suanfati.longestCommonPrefix")) list.remove(s); // 可能抛 ConcurrentModificationException
   }
   ```
 - **解决办法**：
